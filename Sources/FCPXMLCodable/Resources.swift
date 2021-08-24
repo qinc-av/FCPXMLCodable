@@ -6,6 +6,7 @@
 
 import Foundation
 
+@available(macOS 10.15, *)
 protocol Resource: Identifiable, XMLRepresentable {}
 
 /// A container for the resources contained in a FCPXML document.
