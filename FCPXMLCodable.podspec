@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'FCPXMLCodable'
-  s.version = '0.5.1'
+  s.version = '0.5.2'
   s.summary = 'Swift framework for working with FCPXML, providing type-safe conversion using Codable.'
   s.homepage = 'https://github.com/toddkramer/FCPXMLCodable'
   s.author = 'Todd Kramer'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.module_name = 'FCPXMLCodable'
   s.ios.deployment_target = '13.0'
-  s.osx.deployment_target = '10.15'
+  s.osx.deployment_target = '16.4'
   s.tvos.deployment_target = '13.0'
 
   s.source_files = 'Sources/FCPXMLCodable/*.swift'
