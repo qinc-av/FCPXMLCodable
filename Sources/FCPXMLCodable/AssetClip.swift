@@ -12,7 +12,8 @@ public struct AssetClip: XMLRepresentable, Offsettable {
 
     private enum CodingKeys: String, CodingKey {
         case note
-        case conformRate, timeMap
+        case conformRate = "conform-rate"
+        case timeMap = "time-map"
         case crop = "adjust-crop"
         case corners = "adjust-corners"
         case conform = "adjust-conform"
